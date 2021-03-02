@@ -1,7 +1,11 @@
 ul {
   display: flex;
   list-style-type: none;
+  text-decoration: none;
 }
 .footer {
   list-style-type: none;
+}
+form {
+  border: 1px black solid;
 }
