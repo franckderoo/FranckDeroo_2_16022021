@@ -29,12 +29,7 @@ h1 {
   font-weight: bold;
 }
 h1 + p {
-  font-size: 0.9em;
-}
-h2 {
-  font-family: "Raleway";
-  font-size: 1.2em;
-  font-weight: bold;
+  font-size: 0.8em;
 }
 a {
   text-decoration: none;
@@ -53,7 +48,6 @@ h3 {
 p {
   font-size: 0.7em;
   font-family: "raleway";
-  font-weight: 600;
   color: black;
   margin-top: 0em;
   margin-bottom: 0.5em;
@@ -79,7 +73,7 @@ i[data-active="false"] {
   margin-left: 1em;
 }
 header {
-  max-width: 1111px;
+  max-width: 1024px;
 }
 header,
 nav ul {
@@ -87,7 +81,7 @@ nav ul {
   flex-wrap: wrap;
   justify-content: space-between;
   list-style-type: none;
-  font-size: 1em;
+  font-size: 0.9em;
   font-family: "Raleway";
   width: 1024px;
   width: 100%;
@@ -138,7 +132,9 @@ button {
 } /* fin cds*/
 
 /* partie filtre*/
-
+.search {
+  margin-top: 1em;
+}
 .search_filters {
   display: flex;
   flex-wrap: wrap;
@@ -179,7 +175,7 @@ button {
 .search_filters_title {
   margin-left: 1em;
   margin-right: 1em;
-} /* fin filtre*/
+}
 .search_filters_result {
   display: flex;
   flex-wrap: wrap;
@@ -202,7 +198,6 @@ button {
 .search_filters_result_txt {
   font-family: "Raleway";
   font-size: 0.8em;
-  font-weight: bold;
 }
 /*fin wrapper*/
 /*section_hosting*/
@@ -251,6 +246,7 @@ button {
   height: 84px;
   width: 200px;
   border-radius: 10px 10px 0 0;
+  object-fit: cover;
 }
 
 /*section_popular*/
@@ -300,10 +296,11 @@ button {
   height: 105px;
   width: 100px;
   border-radius: 10px 0 0 10px;
+  object-fit: cover;
 } /* groupement des deux */
 .global {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   flex-direction: row;
 }
 /*fin groupe*/
@@ -318,19 +315,20 @@ button {
 .activity_at_container_card_solo_card {
   margin: inherit;
 }
-
 .activity_at_container_card_one {
   margin: inherit;
+  height: 163px;
 }
 .activity_at_container_card_one img {
-  height: 119px; /* a voir */
+  height: 118px; /* a voir */
 }
 
 .activity_at_container_card_two {
   margin: inherit;
+  height: 157px;
 }
 .activity_at_container_card_two img {
-  height: 100px;
+  height: 112px;
 }
 .activity_at_container_card_duo {
   display: flex;
@@ -339,15 +337,17 @@ button {
 
 .activity_at_container_card_three {
   margin: inherit;
+  height: 157px;
 }
 .activity_at_container_card_three img {
-  height: 100px;
+  height: 115px;
 }
 .activity_at_container_card_four {
   margin: inherit;
+  height: 165px;
 }
 .activity_at_container_card_four img {
-  height: 119px;
+  height: 120px;
 }
 .activity_at_container_card_title {
   padding: 1em;
@@ -360,6 +360,7 @@ button {
   height: 300px;
   width: 250px;
   border-radius: 10px 10px 0 0;
+  object-fit: cover;
 }
 .activity_at_container {
   display: flex;
