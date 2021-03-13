@@ -17,7 +17,6 @@
 }
 body {
   width: 100%;
-  margin-right: 1em;
   font-family: "Raleway", arial;
 }
 /*groupe global pour eviter les repetitions 
@@ -93,7 +92,16 @@ li {
   color: #0065fc;
 }
 .header_nav_link {
+  border-top: transparent 3px solid;
+  padding: 2em;
+}
+.header_nav_link:hover {
   border-top: #0065fc 3px solid;
+  color: #0065fc;
+}
+.header_nav_link[data-active="true"] {
+  border-top: #0065fc 3px solid;
+  color: #0065fc;
 }
 /*fin header*/
 /*wrapper*/
@@ -217,8 +225,7 @@ button {
   flex-wrap: wrap;
   background-color: #f2f2f2;
   border-radius: 20px 20px 20px 20px;
-  width: 60%;
-  margin-left: 1em;
+  width: 62%;
   padding: 1em;
 }
 #hosting {
@@ -273,7 +280,7 @@ button {
   border-radius: 20px 20px 20px 20px;
   padding: 1em;
   margin-left: 2%;
-  width: 29%;
+  width: 30%;
 }
 .popular_title_icon {
   display: flex;
@@ -323,8 +330,8 @@ button {
 } /* groupement des deux */
 .global {
   display: flex;
-
   flex-direction: row;
+  margin: inherit;
 }
 /*fin groupe*/
 /*section activity*/
@@ -402,8 +409,8 @@ button {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-size: 1em;
   margin-left: 1em;
-  margin-top: 30px;
-  margin-bottom: 3px;
+  margin-top: 3em;
+  margin-bottom: 2em;
 }
 /*footer*/
 footer {
