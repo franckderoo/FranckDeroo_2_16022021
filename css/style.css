@@ -16,6 +16,7 @@
       format("svg");
 }
 body {
+  margin: 0px;
   width: 100%;
   font-family: "Raleway", arial;
 }
@@ -221,7 +222,6 @@ button {
 .hosting_at {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   flex-wrap: wrap;
   background-color: #f2f2f2;
   border-radius: 20px 20px 20px 20px;
@@ -255,7 +255,7 @@ button {
 .hosting_at_cards {
   background-color: white;
   width: 85%;
-  height: 147px;
+  height: 180px;
   border-radius: 10px 10px 10px 10px;
   border: 3px white solid;
   box-shadow: 1px 2px 9px rgb(199, 194, 182);
@@ -265,7 +265,7 @@ button {
   margin-left: 0.5em;
 }
 .img_hosting {
-  height: 60%;
+  height: 65%;
   width: 100%;
   border-radius: 10px 10px 0 0;
   object-fit: cover;
@@ -280,7 +280,8 @@ button {
   border-radius: 20px 20px 20px 20px;
   padding: 1em;
   margin-left: 2%;
-  width: 30%;
+  margin-right: 1em;
+  width: 31%;
 }
 .popular_title_icon {
   display: flex;
@@ -304,13 +305,13 @@ button {
 }
 .popular_container_cards {
   width: 92%;
-  height: 136px;
+  height: 166px;
 }
 .popular_cards {
   display: flex;
   background-color: white;
   width: 90%;
-  height: 105px;
+  height: 135px;
   border-radius: 10px 10px 10px 10px;
   border: 3px white solid;
   box-shadow: 1px 2px 9px rgb(199, 194, 182);
@@ -320,7 +321,8 @@ button {
   margin-left: 1em;
 }
 .popular_container_cards_stars {
-  margin-top: 3em;
+  margin-top: 8em;
+  font-size: 0.5em;
 }
 .img_popular {
   height: 100%;
@@ -331,7 +333,7 @@ button {
 .global {
   display: flex;
   flex-direction: row;
-  margin: inherit;
+  margin-left: 1em;
 }
 /*fin groupe*/
 /*section activity*/
@@ -340,10 +342,10 @@ button {
   justify-content: space-around;
 }
 .activity_at_container_card_solo {
-  width: 22%;
+  width: 24%;
 }
 .activity_at_container_card_duo {
-  width: 22%;
+  width: 24%;
   height: 395px;
 
   display: flex;
@@ -353,7 +355,7 @@ button {
 .activity_at_container_card {
   background-color: white;
   border-radius: 10px 10px 10px 10px;
-  width: 100%;
+  width: 95%;
   box-shadow: 1px 2px 9px rgb(199, 194, 182);
 }
 .activity_at_container_card_solo_card {
@@ -398,6 +400,7 @@ button {
 .activity_at {
   display: flex;
   flex-direction: column;
+  margin-left: 1em;
 }
 .img_activity {
   width: 100%;
@@ -408,9 +411,9 @@ button {
 #activity {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-size: 1em;
-  margin-left: 1em;
+  margin-left: 0px;
   margin-top: 3em;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 /*footer*/
 footer {
