@@ -333,7 +333,7 @@ button {
   width: 40%;
   border-radius: 10px 0 0 10px;
   object-fit: cover;
-} /* groupement des deux */
+} 
 .global {
   display: flex;
   flex-direction: row;
