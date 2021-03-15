@@ -16,8 +16,12 @@
       format("svg");
 }
 body {
+<<<<<<< HEAD
   margin: 0px;
   width: 100%;
+=======
+  width: 99%;
+>>>>>>> d873f2c584577f384bff72374f18d7e677fbd79b
   font-family: "Raleway", arial;
 }
 /*groupe global pour eviter les repetitions 
