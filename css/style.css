@@ -16,7 +16,10 @@
       format("svg");
 }
 body {
+<<<<<<< HEAD
   margin: 0px;
+=======
+>>>>>>> e157ca393b267b204165a5201509cfe78142b07b
   font-family: "Raleway", arial;
 }
 .main {
