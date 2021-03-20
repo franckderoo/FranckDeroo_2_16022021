@@ -15,17 +15,19 @@
     <header>
       <img class="logo" src="images/logo/Reservia.svg" alt="reservia" />
 
-      <nav>
-        <ul>
-          <li>
-            <a class="header_nav_link" data-active="true" href="#hosting"
-              >Hébergements</a
-            >
-          </li>
-          <li><a class="header_nav_link" href="#activity"> Activités</a></li>
-          <li><a class="header_nav_signup" href="#"> S'inscrire</a></li>
-        </ul>
+      <nav class="header_main">
+        <div>
+          <a class="header_nav_link" data-active="true" href="#hosting"
+            >Hébergements</a
+          >
+        </div>
+        <div>
+          <a class="header_nav_link" data-active="false" href="#activity">
+            Activités</a
+          >
+        </div>
       </nav>
+      <div><a class="header_nav_signup" href="#"> S'inscrire</a></div>
     </header>
     <!--fin header-->
     <!--debut wrapper-->
@@ -39,16 +41,18 @@
         <form method="post" action="#">
           <span class="marker"><i class="fas fa-map-marker-alt"></i></span>
           <input type="text" name="search" placeholder="Marseille, France" />
-          <button>Rechercher</button>
+          <div class="button">
+            <span>Rechercher</span> <i class="fas fa-search"></i>
+          </div>
         </form>
       </div>
 
       <!--parti filtres-->
       <div class="search_filters">
         <!--carton-->
-        <div>
+        <div class="search_filters_title_title">
           <!--b1-->
-          <span class="search_filters_title_title">Filtres</span>
+          Filtres
         </div>
         <div class="search_filters_title_ico">
           <!--b2-->
