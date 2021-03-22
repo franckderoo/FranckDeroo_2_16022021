@@ -41,7 +41,7 @@ h1 + p {
 }
 
 h3 {
-  font-size: 0.9em;
+  font-size: 0.87em;
   font-family: "raleway";
   font-weight: bold;
   color: black;
@@ -350,6 +350,11 @@ input::placeholder {
 .popular_legend {
   margin-left: 0.5em;
   width: 60%;
+}
+
+.popular_container_cards_stars_TL {
+  margin-top: 4em;
+  font-size: 0.5em;
 }
 .popular_container_cards_stars {
   margin-top: 4em;
@@ -667,6 +672,9 @@ footer h3 {
   .popular_container_cards {
     height: 137px;
   }
+  .popular_container_cards_stars_TL {
+    margin-top: 6em;
+  }
   .popular_container_cards_stars {
     margin-top: 6em;
   } /*hosting*/
@@ -739,5 +747,13 @@ footer h3 {
   }
   header {
     flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 489px) {
+  .popular_container_cards_stars_TL {
+    margin-top: 5em;
+  }
+  .popular_container_cards_stars {
+    margin-top: 5em;
   }
 }
