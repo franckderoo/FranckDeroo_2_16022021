@@ -288,7 +288,7 @@ input::placeholder {
   width: 90%;
   height: 160px;
   border-radius: 10px 10px 10px 10px;
-  border: 3px white solid;
+  border: 3px rgb(252, 252, 252) solid;
   box-shadow: 1px 2px 9px rgb(199, 194, 182);
   margin-left: 15px;
 }
@@ -344,7 +344,7 @@ input::placeholder {
   width: 97%;
   height: 115px;
   border-radius: 10px 10px 10px 10px;
-  border: 3px solid white;
+  border: 3px solid rgb(255, 254, 254);
   box-shadow: 1px 2px 9px rgb(199, 194, 182);
   margin-left: 0px;
 }
@@ -483,7 +483,6 @@ footer h3 {
 }
 @media all and (min-width: 1499px) {
   .footer {
-    
     margin: 0 auto;
   }
   .container_footer {
@@ -515,13 +514,13 @@ footer h3 {
   .wrapper {
     margin: 0 auto;
   }
-  .popular_container_cards_stars{
+  .popular_container_cards_stars {
     margin-top: 9em;
   }
-  .popular_container_cards_stars_TL{
+  .popular_container_cards_stars_TL {
     margin-top: 9em;
   }
-  .stars{
+  .stars {
     margin-top: 3em;
   }
 }
@@ -530,13 +529,13 @@ footer h3 {
     width: 100%;
     margin: 0 auto;
   }
-  .popular_container_cards_stars{
+  .popular_container_cards_stars {
     margin-top: 9em;
   }
-  .popular_container_cards_stars_TL{
+  .popular_container_cards_stars_TL {
     margin-top: 9em;
   }
-  .stars{
+  .stars {
     margin-top: 3em;
   }
   .hosting_at {
@@ -796,7 +795,7 @@ footer h3 {
     height: 160px;
     width: 100%;
   }
-  
+
   .container_footer {
     flex-direction: column;
   }
@@ -838,7 +837,7 @@ footer h3 {
     border-bottom: 3px solid #e8e8e8;
   }
 }
-@media screen and (min-width: 320px)and (max-width:435px) {
+@media screen and (min-width: 320px) and (max-width: 435px) {
   .popular_container_cards_stars_TL {
     margin-top: 5em;
   }
@@ -862,20 +861,19 @@ footer h3 {
     padding: 1em 3.7em;
     border-top: #0065fc 3px transparent;
     border-bottom: 3px solid #e8e8e8;
-    border width: 5em;
   }
 }
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   .hosting_at_container_cards:hover {
-  transform: scale(1.1);
-  transition: 1s;
-}
-.popular_container_cards:hover {
-  transform: scale(1.1);
-  transition: 1s;
-}
-.activity_at_container_card:hover {
-  transform: scale(1.1);
-  transition: 1s;
-}
+    transform: scale(1.1);
+    transition: 1s;
+  }
+  .popular_container_cards:hover {
+    transform: scale(1.1);
+    transition: 1s;
+  }
+  .activity_at_container_card:hover {
+    transform: scale(1.1);
+    transition: 1s;
+  }
 }
