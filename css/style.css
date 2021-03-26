@@ -515,10 +515,10 @@ footer h3 {
     margin: 0 auto;
   }
   .popular_container_cards_stars {
-    margin-top: 9em;
+    margin-top: 10em;
   }
   .popular_container_cards_stars_TL {
-    margin-top: 9em;
+    margin-top: 10em;
   }
   .stars {
     margin-top: 3em;
@@ -530,10 +530,10 @@ footer h3 {
     margin: 0 auto;
   }
   .popular_container_cards_stars {
-    margin-top: 9em;
+    margin-top: 10em;
   }
   .popular_container_cards_stars_TL {
-    margin-top: 9em;
+    margin-top: 10em;
   }
   .stars {
     margin-top: 3em;
@@ -564,6 +564,7 @@ footer h3 {
   }
   .hosting_at {
     width: 100%;
+    padding: 1em 0em;
   }
   .popular {
     width: 100%;
@@ -761,9 +762,6 @@ footer h3 {
   .popular_container_cards {
     height: 137px;
   }
-  .popular_container_cards_stars_TL {
-    margin-top: 7em;
-  }
   .popular_container_cards_stars {
     margin-top: 6em;
   } /*hosting*/
@@ -837,9 +835,34 @@ footer h3 {
     border-bottom: 3px solid #e8e8e8;
   }
 }
+@media screen and (min-width: 907px) and (max-width: 1023px) {
+  .card3 {
+    margin-top: 8em;
+  }
+}
+@media screen and (min-width: 885px) and (max-width: 1023px) {
+  .card1 {
+    margin-top: 8em;
+  }
+}
+@media screen and (min-width: 1088px) and (max-width: 1099px) {
+  .card1 {
+    margin-top: 8em;
+  }
+}
+@media screen and (min-width: 1099px) and (max-width: 1424px) {
+  .popular_container_cards_stars_TL {
+    margin-top: 8em;
+  }
+}
 @media screen and (min-width: 320px) and (max-width: 435px) {
   .popular_container_cards_stars_TL {
     margin-top: 5em;
+  }
+}
+@media screen and (min-width: 436px) and (max-width: 767px) {
+  .popular_container_cards_stars_TL {
+    margin-top: 7em;
   }
 }
 @media screen and (max-width: 767px) {
