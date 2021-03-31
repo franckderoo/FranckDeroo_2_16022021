@@ -195,7 +195,7 @@ input::placeholder {
 .search_filters_title_ico {
   display: flex;
   align-items: center;
-  margin-right: 1.5em;
+  margin-right: 1em;
   height: 2em;
   background-color: white;
   border-radius: 2em;
