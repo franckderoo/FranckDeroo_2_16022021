@@ -19,7 +19,7 @@ body {
   margin: 0px;
   font-family: "Raleway", arial;
 }
-.main {
+main {
   max-width: 1440px;
   margin: 0 30px;
 }
@@ -490,7 +490,7 @@ footer h3 {
     margin: 0 auto;
     max-width: 1440px;
   }
-  .main {
+  main {
     margin: 0 auto;
   }
   .hosting_at {
@@ -744,7 +744,7 @@ footer h3 {
     margin-left: 0px;
     margin-right: 0px;
   }
-  .main {
+  main {
     margin: 0px;
   }
   .global {
