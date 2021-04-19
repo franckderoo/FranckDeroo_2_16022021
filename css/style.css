@@ -900,3 +900,78 @@ footer h3 {
     transition: 1s;
   }
 }
+.loader {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background: black;
+  animation: blind 4s;
+  transform-origin: left;
+}
+.deg1 {
+  color: aqua;
+}
+@keyframes blind {
+  from {
+    width: 100%;
+
+    opacity: 1;
+  }
+  to {
+    width: 100%;
+
+    opacity: 1;
+  }
+}
+@keyframes wait {
+  from {
+    width: 100%;
+    opacity: 1;
+  }
+  to {
+    width: 100%;
+    opacity: 0;
+  }
+}
+.loa2 {
+  display: flex;
+}
+.com {
+  font-style: italic;
+  font-size: 5em;
+
+  opacity: 0;
+}
+.ap1 {
+  animation: wait 2s;
+}
+.ap2 {
+  animation: wait 2s 1s;
+}
+.ap3 {
+  animation: wait 2s 2s;
+}
+@keyframes wait {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
