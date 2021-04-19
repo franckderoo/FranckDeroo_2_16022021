@@ -900,9 +900,15 @@ footer h3 {
     transition: 1s;
   }
 }
-.loader {
+.deg1 {
+  background: linear-gradient(to bottom, #ff79da, #9356dc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.loadera {
   position: absolute;
-  z-index: 1;
+
   top: 0;
   left: 0;
   width: 0%;
@@ -914,9 +920,6 @@ footer h3 {
   background: black;
   animation: blind 4s;
   transform-origin: left;
-}
-.deg1 {
-  color: aqua;
 }
 @keyframes blind {
   from {
@@ -930,16 +933,7 @@ footer h3 {
     opacity: 1;
   }
 }
-@keyframes wait {
-  from {
-    width: 100%;
-    opacity: 1;
-  }
-  to {
-    width: 100%;
-    opacity: 0;
-  }
-}
+
 .loa2 {
   display: flex;
 }
